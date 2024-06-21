@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(assets/wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 30%;
+    padding: 30px;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid black;
+    flex-direction: column;
+    height: fit-content;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+}
+main h1{
+    font-size: 48px;
+    font-weight: 100;
+}
