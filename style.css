@@ -194,26 +194,7 @@ label > p{
     #image-left{
         display: none;
     }
-}
-@media screen and (max-width:380px) {
-    form{
-        width: 300px;
-        margin-top: 60px;
-    }
-    form input{ 
-        width: 350px;
-    }
-    #normal-button{
-        width: 340PX;
-    }
-    #button-google{
-        width: 340px;
-        background-position: 10px;
-        background-size: 40px;
-    }
-    #forget{ 
-        width: 350px;
-    }
+
 }
 @media screen and (max-width:360px) {
     form{
@@ -229,7 +210,6 @@ label > p{
     }
     #button-google{
         width: 300px;
-        font-size: ;
         background-position: 8px;
         background-size: 35px;
         font-size: 16px;
@@ -241,4 +221,58 @@ label > p{
     #register{
         font-size: 14px;
     }
+}
+@media screen and (max-width:380px) {
+    form{
+        width: 300px;
+        margin-top: 60px;
+    }
+    form input{ 
+        width: 350px;
+    }
+    #normal-button{
+        width: 350PX;
+    }
+    #button-google{
+        width: 340px;
+        background-position: 10px;
+        background-size: 40px;
+        font-size: 12px;
+    }
+    #forget{ 
+        width: 350px;
+    }
+}
+@media screen and (max-width: 420px) {
+        form input{
+            width: 300px;
+        }
+        #btn {
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;   
+            margin: 30px auto 10px auto;
+        }
+        #btn > button{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+        }
+        #button-google{
+            width: 300px;
+            background-position: 10px;
+            background-size: 30px;
+            font-size: 16px;
+        }
+        #forget{
+            width: 305px;
+            font-size: 12px;
+        }
+        #register{
+            margin: 20px auto 0px auto;
+        }
 }
