@@ -1,26 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Login Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
 </head>
-<body class="bg-zinc-900">
-    <main class="">
-        <h1>
-            Login
-        </h1>
-        <label for="user">
-            <p class="text-lg text-white">Usuário</p>
-        <input type="text"> 
-        </label>
-        <label for="password">
-            <p class="text-lg white text-slate-100">Sua Senha:
-            </p>
-            <input type="password" name="senha" id="password">
-        </label>
-    </main>
+<body>
+    <section id="main-content">
+        <section id="image-left">
+            <img src="assets/svg.png" alt="hero">
+        </section>
+        <section id="form">
+            <form action="login">
+                <div id="form-header">
+                    <h1 class="title">Bem vindo de volta</h1>
+                    <h2 class="title">Faça login na sua conta</h2>
+                </div>
+                <label for="email">
+                    <p>E-mail</p>
+                    <input type="email" placeholder="Insira seu email" id="email"> 
+                </label>
+                <label for="password">
+                    <p>Senha</p>
+                    <input type="password" name="password" id="password" placeholder="Insira sua senha">
+                </label>
+                <section id="forget">
+                    <div id="radio">
+                        <input type="radio" name="radio" id="radio-input">
+                        <p>Lembre de mim </p>
+                    </div>
+                    <span id="forget-senha">
+                        <a href="#">Esqueceu sua senha?</a>
+                    </span> 
+                        
+                </section>
+                <div id="btn">
+                    <button id="normal-button">
+                        <p>Entrar na Conta</p>
+                    </button>
+                    <button id ="button-google">
+                        <p>Ou faça login com o Google</p>
+                    </button>
+                </div>
+                <p id="register">Não tem uma conta? <a href="#">Cadastre-se</a></p>
+            </form>
+        </section>
+    </section>
 </body>
 </html>
